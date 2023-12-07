@@ -13,11 +13,11 @@ body {
 
 .heading {
   font-family: "barlow";
-  width: 1352px;
+  width: 95%;
   display: inline-flex;
   flex-direction: row;
-  margin-left: 40px;
-  margin-top: 34px;
+  margin-left: 2%;
+  margin-top: 2%;
 }
 .heading .ss {
   font-size: xx-large;
@@ -25,25 +25,25 @@ body {
   display: flex;
   justify-content: flex-start;
   color: hsl(0, 0%, 100%);
-  margin-top: 10px;
+  margin-top: 1%;
 }
 .heading .asp {
-  margin-top: 20px;
-  width: 800px;
-  height: 56px;
+  margin-top: 1%;
+  width: 1500%;
+  height: 20%;
   display: flex;
   justify-content: space-between;
   font-size: small;
-  margin-left: 800px;
-  word-spacing: 60px;
+  margin-left: 55%;
+  word-spacing: 3.75em;
   color: hsl(0, 0%, 100%);
 }
 .heading button {
   font-family: "fraunces";
-  font-size: 17px;
-  width: 130px;
-  height: 40px;
-  border-radius: 17px;
+  font-size: 140%;
+  width: 35%;
+  height: -20%;
+  border-radius: 1em;
   border: none;
 }
 
@@ -58,37 +58,37 @@ body {
 .box-one h1 {
   display: flex;
   font-family: "fraunces";
-  font-size: 56px;
+  font-size: 360%;
   justify-content: center;
   color: hsl(0, 0%, 100%);
 }
 
 .arrow {
-  margin-top: 160px;
-  margin-left: 700px;
+  margin-top: 10%;
+  margin-left: 49%;
 }
 
 .taillebrandbox {
   width: 50%;
 }
 .taillebrandbox .brandbox {
-  width: 445px;
-  height: 285px;
+  width: 50%;
+  height: 50%;
   background-color: rgb(255, 255, 255);
   font-family: "barlow";
-  margin-top: 150px;
-  margin-left: 150px;
+  margin-top: 14%;
+  margin-left: 20%;
   display: flex;
   flex-direction: column;
 }
 
 .titleheader {
-  font-size: 33px;
+  font-size: 210%;
   font-family: "fraunces";
 }
 
 .txt {
-  font-size: 16px;
+  font-size: 95%;
   color: hsl(232, 10%, 55%);
 }
 
@@ -97,8 +97,8 @@ body {
 }
 
 .taillebox {
-  width: 720px;
-  height: 600px;
+  width: 50%;
+  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -111,7 +111,7 @@ body {
 
 .rowtwo {
   max-width: 1440px;
-  height: 600px;
+  height: 37.5em;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -125,11 +125,13 @@ body {
 .cherrybox {
   width: 100%;
   background-image: url("./img/image-graphic-design.jpg");
+  background-repeat: no-repeat;
 }
 
 .mandarinbox {
   width: 100%;
   background-image: url("./img/image-photography.jpg");
+  background-repeat: no-repeat;
 }
 
 .rowthree {
@@ -144,22 +146,23 @@ body {
   width: 50%;
 }
 .tailleaudience .audiencebox {
-  width: 445px;
-  height: 285px;
+  width: 50%;
+  height: 50%;
   background-color: rgb(255, 255, 255);
   font-family: "barlow";
   display: flex;
   flex-direction: column;
-  margin-top: 150px;
-  margin-left: 150px;
+  margin-top: 15%;
+  margin-left: 20%;
 }
 
 .mandarincherry {
   max-width: 1440px;
-  height: 600px;
+  height: 37.5em;
   width: 100%;
   display: flex;
   flex-direction: row;
+  background-repeat: no-repeat;
 }
 .mandarincherry .titlefruits1 {
   font-family: "fraunces";
@@ -236,9 +239,9 @@ body {
   align-content: center;
   justify-content: center;
   align-items: center;
-  width: 72px;
-  height: 72px;
-  border-radius: 72px;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
 }
 
 .titlec {
@@ -257,7 +260,7 @@ body {
 
 footer {
   height: 800px;
-  background-color: hsl(167, 40%, 24%);
+  background-color: rgb(111, 167, 158);
 }
 
 .sunnysidebox {
@@ -269,7 +272,27 @@ footer {
   margin-top: 10%;
 }
 .sunnysidebox .imgfooter {
-  width: 25%;
+  width: 150%;
   display: flex;
   flex-direction: row;
+}
+
+.aspfooter {
+  font-family: "barlow";
+  margin-top: 5%;
+  color: hsl(167, 40%, 24%);
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.titlesunnyside {
+  font-size: 200%;
+  font-weight: bolder;
+}
+
+.imglogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }/*# sourceMappingURL=index.css.map */
